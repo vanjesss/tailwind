@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom */
+.fade-in { animation: fadeIn 0.9s ease-in-out both; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+html { font-family: 'Poppins', ui-sans-serif, system-ui; 
+background-color: #F9FAFB; /* Ini adalah warna untuk bg-gray-50 */
+}

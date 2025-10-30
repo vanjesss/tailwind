@@ -1,0 +1,15 @@
+/node_modules
+/npm-debug.log
+
+/build
+/dist
+/out
+/coverage
+
+.env
+
+.vscode/
+
+.next/          
+.cache/
+.parcel-cache/
